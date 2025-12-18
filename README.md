@@ -28,18 +28,12 @@ node index.js
 
 ### Configuration (if applicable)
 - Environment variables (example):
-  - `OUTPUT_PATH`: where to write the JSON file (default: `./fitgirl-games.json`)
+  - `OUTPUT_PATH`: where to write the JSON file (default: `./entries.json`)
   - `CONCURRENCY`: number of parallel fetches (default: 4–8 is typical)
   - `TIMEOUT_MS`: per-request timeout
-- CLI flags (example):
-  - `--output ./data/fitgirl-games.json`
-  - `--concurrency 6`
-  - `--pretty` (if you support pretty-print)
-
-(Adjust to the actual options your script supports.)
-
+  - 
 ## Output
-- A JSON file (default: `fitgirl-games.json`) containing an array of game entries, e.g.:
+- A JSON file (default: `entries.json`) containing an array of game entries, e.g.:
 ```json
 [
   {
@@ -65,7 +59,7 @@ node index.js
 - If the site layout changes, selectors may need updating.
 
 ## License
-MIT (update if different).
+GNU v3
 
 ## Author
 [@l0afi](https://github.com/l0afi)
